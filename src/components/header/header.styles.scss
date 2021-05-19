@@ -20,7 +20,18 @@
   
       .option {
         padding: 10px 15px;
+        cursor: pointer;
       }
+&.google-sign-n{
+  background-color: #4285f4;
+  color: white;
+
+  &:hover {
+    background-color: #357ae8;
+    border: none;
+  }
+}
+
     }
   }
   
