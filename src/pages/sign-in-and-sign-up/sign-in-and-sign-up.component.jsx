@@ -5,8 +5,10 @@ import SignUp from '../../components/sign-up/sign-up.components';
 
 const SignInAndSignUpPage = () =>(
 
-    <div className= 'sign-in-and-sign-up'><SignIn/>
-    <SignUp/></div>
+    <div className= 'sign-in-and-sign-up'>
+    <SignIn/>
+    <SignUp/>
+    </div>
    
 );
 
