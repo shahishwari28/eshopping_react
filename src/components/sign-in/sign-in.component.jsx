@@ -45,9 +45,9 @@ render(){
                 
                 <div className = 'buttons'>
                 <CustomButton type='submit' >Sign in </CustomButton>
-                <CustomButton onClick = {signInWithGoogle} isGoogleSignIn>
-                    {''}
-                    SIGN IN WITH GOOGLE {''}
+                <CustomButton type="button" onClick = {signInWithGoogle} isGoogleSignIn>
+                    
+                    SIGN IN WITH GOOGLE 
                  </CustomButton>
                 </div>
                 
